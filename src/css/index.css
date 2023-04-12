@@ -13,33 +13,33 @@ html {
 .decorations1
 {
     position: absolute;
-    right: -400px;
-    top: -500px;
+    right: 100px;
+    top: 0px;
 }
 
-.rond1
-{
-    z-index: 1;
-    position: absolute;
-    width: 24.5vw;
-    height: 24.5vw;
-    right: 200px;
-    top: 800px;    
-    /* Marron */
-    border-radius: 100%;
-    background: #3F2C10;
-}
 .rond2
 {
     z-index: 1;
     position: absolute;
-    right: 0;
-    top: 0;
+    right: -500px;
+    top: -500px;
     border-radius: 100%;
-    width: 55vw;
-    height: 55vw;
+    width: 1053px;
+    height: 1053px;
     /* Jaune */
     background: #FCB041;
+}
+.rond1
+{
+    z-index: 0;
+    position: absolute;
+    width: 474px;
+    height: 474px;
+    right: -300px;
+    top: 260px;    
+    /* Marron */
+    border-radius: 100%;
+    background: #3F2C10;
 }
 
 body {
@@ -223,5 +223,28 @@ p
     .container
     {
         margin: 150px 0 100px 0;
+    }
+    .rond2 {
+        z-index: 1;
+        position: absolute;
+        right: -300px;
+        top: -200px;
+        border-radius: 100%;
+        width: 500px;
+        height: 500px;
+        /* Jaune */
+        background: #FCB041;
+    }
+
+    .rond1 {
+        z-index: 0;
+        position: absolute;
+        width: 274px;
+        height: 274px;
+        right: -190px;
+        top: 120px;
+        /* Marron */
+        border-radius: 100%;
+        background: #3F2C10;
     }
 }
