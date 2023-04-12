@@ -1,13 +1,47 @@
 html,
 body {
-    overflow: auto;
+    overflow-x: hidden;
 }
 
 html {
     height: 100%;
 }
 
+.decorations1
+{
+    position: absolute;
+    right: -400px;
+    top: -500px;
+}
+
+.rond1
+{
+    z-index: 1;
+    position: absolute;
+    width: 474px;
+    height: 474px;
+    right: 200px;
+    top: 800px;    
+    /* Marron */
+    border-radius: 100%;
+    background: #3F2C10;
+}
+.rond2
+{
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 100%;
+    width: 1053px;
+    height: 1053px;
+    /* Jaune */
+    background: #FCB041;
+}
+
 body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
     min-height: 100%;
     margin: 0;
     padding: 0;
@@ -15,6 +49,8 @@ body {
 }
 
 .container {
+    z-index: 1;
+    margin: 100px 20% 300px 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;

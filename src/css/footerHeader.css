@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+
 * {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -6,7 +8,7 @@
 a {
     color: black;
     text-decoration: none;
-    transition: color 0.3s ease-in-out;
+    transition: color 0.1s ease-in-out;
 }
 
 a:hover {
@@ -14,69 +16,182 @@ a:hover {
 }
 
 .headercontainer {
-    position: relative;
+    z-index: 5;
+    position: fixed;
     top: 0px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     left: 0;
-    height: 10vh;
-    background-color: gray;
+    height: 70px;
     width: 100%;
+}
+
+.fondHeader
+{
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -70px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 20px;
+    transition: top 0.5s ease-in-out;
+    
+}
+.logo
+{
+    z-index: 3;
 }
 
 
 .menu {
+    z-index: 3;
     position: absolute;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     right: 0;
     white-space: nowrap;
     width: 50%;
+    align-items: center;
 }
 
 .lienHeader {
-    margin-right: 5%;
-    font-size: x-large;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: large;
+    margin-right: 15%;
 }
 
 
-
+.logo
+{
+    margin-left: 2%;
+}
 
 .footerContainer {
+    z-index: 10;
+    overflow: hidden;
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     bottom: 0;
-    height: 22vh;
-    background-color: gray;
+    width: 1440px;
+    background: #FCB041;
     width: 100%;
 }
 
 .footerFond {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.partieHauteFooter
+{
+    width: 100%;
+    height: 100%;
     display: flex;
-    position: relative;
+}
+
+.partieGaucheFooter, .partieDroiteFooter
+{
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
+    width: 50%;
+}
+
+.partieGaucheFooter
+{
+    
+    align-items: flex-start;
 }
 
 .liensFooter {
     margin-top: 10px;
     height: 100%;
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: large;
+}
+
+.mailContainer, .telContainer
+{
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
-    position: relative;
+}
+
+.mailPicto
+{
+    width:20px; 
+    height: 16px;
+}
+
+.telPicto
+{
+    width:20px; 
+    height: 20px;
+
+}
+
+.mailLien, .numeroTel
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: large;
+    margin-left: 10px;
+
 }
 
 .lienFooter {
     white-space: nowrap;
-    text-align: center;
+    text-align: left;
+    margin-top: 10%;
     /* font-size: 1vw; */
+}
+
+.lienMentions
+{
+    margin-bottom: 20px;
+}
+
+.buttonContact
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-width: 210px;
+    height: 45px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
 }
 
 .droitsContainer {
     bottom: 0;
+}
+
+
+
+/* css pour animations */
+
+.moveToTop
+{
+    top: 0;
+}
+.moveOut
+{
+    top: -70px;
 }
