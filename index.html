@@ -8,21 +8,22 @@
     <link rel="stylesheet" href="src/css/footerHeader.css">
     <link rel="stylesheet" href="src/css/index.css">
     <link rel="stylesheet" href="src/css/carroussel.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="icon" type="image/png" href="favicon.png" />
 </head>
 <body>
     <header class="headercontainer">
         <div class="fondHeader" id="headerFond"></div>
         <div class="logo">
-            <a class="lienHeader lienAcceuil autreLienHeader" href="index.html">LOGO</a>
+            <a class="lienHeader lienAcceuil autreLienHeader" href="index.html"><img src="" alt="Logo de Xembee"></a>
 
         </div>
         <div class="menu">
             <a class="lienHeader autreLienHeader" href="">Qui sommes nous ?</a>
             <a class="lienHeader autreLienHeader" href="">Le concept</a>
             <a class="lienHeader autreLienHeader" href="">FAQ</a>
-            <button class="lienHeader firstLienHeader buttonContact">
-                <a class="" href="">contact</a>
+            <button onclick="window.location.href='';" class="lienHeader firstLienHeader buttonContactHeader buttonContact">
+                contact
             </button>
         </div>
     </header>
@@ -42,8 +43,10 @@
         </div>
         <div class="troisiemeBloc Blocs">
             <h2>Partenaires</h2>
-            <div class="imagesPartenaires">
-                <a href=""><img src="" alt=""></a>
+            <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+                <a class="gallery-cell" href="https://rev3-entreprises.fr/"><img class="imageCarroussel" src="src/img/rev3-blanc-3.png" alt=""></a>
+                <a class="gallery-cell" href="https://www.euratechnologies.com/"><img class="imageCarroussel" src="src/img/euratec.png" alt=""></a>
+                <a class="gallery-cell" href="https://www.facebook.com/blanchemaillebyeuratechnologies/"><img class="imageCarroussel" src="src/img/blancheMaille.png" alt=""></a>
             </div>
         </div>
     </div>
@@ -51,8 +54,7 @@
         <div class="footerFond"></div>
         <div class="partieHauteFooter">
             <div class="partieGaucheFooter">
-                <div class="logo">
-                </div>
+                <a href=""><img src="" alt=""></a>
                     <a class="lienLogoFooter" href="index.html">LOGO</a>
                     <div class="mailContainer">
                         <img class="mailPicto" src="src/img/PictoMail.png" alt="">
@@ -62,11 +64,15 @@
                         <img class="telPicto" src="src/img/PictoTel.png" alt="">
                         <p class="numeroTel">+(33)6 00 00 00 00</p>
                     </div>
+                    <div class="reseauxContainer">
+                        <button onclick="window.location.href='';" class="lienHeader firstLienHeader buttonContactFooter buttonContact">
+                            contact
+                        </button>
+                    </div>
             </div>
             <div class="partieDroiteFooter">
                 <div class="liensFooter">
                     <h3>Explorer</h3>
-                    <a class="lienFooter lienAcceuil" href="index.html">acceuil</a>
                     <a class="lienFooter" href="">projet</a>
                     <a class="lienFooter" href="">qui sommes nous</a>
                     <a class="lienFooter" href="">contact</a>
@@ -81,5 +87,6 @@
     <script src="src/js/index.js"></script>
     <script src="src/js/carroussel.js"></script>
     <script src="src/js/header.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>

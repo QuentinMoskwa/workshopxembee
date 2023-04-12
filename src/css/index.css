@@ -98,8 +98,24 @@ p
 }
 
 .secondBloc
-
-.lienAcceuil
 {
-    color: red;
+    margin-bottom: 100px;
+}
+
+.troisiemeBloc
+{
+    width: 100%;
+}
+
+.troisiemeBloc a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageCarroussel
+{
+    width: auto;
+    height: auto;
 }
