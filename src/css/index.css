@@ -62,12 +62,12 @@ body {
 }
 
 .premierBloc {
-
+    
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-bottom: 150px;
+    margin-bottom: 350px;
 }
 
 h2
@@ -77,6 +77,10 @@ h2
 p
 {
     font-family: 'Raleway', sans-serif;
+}
+.premierBloc p
+{
+    width: 50%;
 }
 
 .premierBloc button
