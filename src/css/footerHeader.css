@@ -72,7 +72,7 @@ a:hover {
 .footerContainer {
     z-index: 10;
     overflow: hidden;
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
