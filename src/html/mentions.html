@@ -13,12 +13,18 @@
 
 <body>
     <header class="headercontainer">
-        <div class="logo"></div>
+        <div class="fondHeader" id="headerFond"></div>
+        <div class="logo">
+            <a class="lienHeader lienAcceuil autreLienHeader" href="index.html"><img src="" alt="Logo de Xembee"></a>
+    
+        </div>
         <div class="menu">
-            <a class="lienHeader lienAcceuil" href="../../index.html">acceuil</a>
-            <a class="lienHeader" href="">projet</a>
-            <a class="lienHeader" href="">qui sommes nous</a>
-            <a class="lienHeader" href="">contact</a>
+            <a class="lienHeader autreLienHeader" href="">Qui sommes nous ?</a>
+            <a class="lienHeader autreLienHeader" href="">Le concept</a>
+            <a class="lienHeader autreLienHeader" href="">FAQ</a>
+            <button onclick="window.location.href='';" class="lienHeader firstLienHeader buttonContactHeader buttonContact">
+                contact
+            </button>
         </div>
     </header>
     <div class="container">
@@ -43,17 +49,38 @@
         </p>
     </div>
     <footer class="footerContainer">
-        <div class="footerFond">
-            <div class="liensFooter">
-                <a class="lienFooter lienAcceuil" href="../../index.html">acceuil</a>
-                <a class="lienFooter" href="">projet</a>
-                <a class="lienFooter" href="">qui sommes nous</a>
-                <a class="lienFooter" href="">contact</a>
-                <a class="lienFooter lienMentions" href="mentions.html">mentions légales</a>
+        <div class="footerFond"></div>
+        <div class="partieHauteFooter">
+            <div class="partieGaucheFooter">
+                <a href=""><img src="" alt=""></a>
+                <a class="lienLogoFooter" href="index.html">LOGO</a>
+                <div class="mailContainer">
+                    <img class="mailPicto" src="../img/PictoMail.png" alt="">
+                    <a class="mailLien" href="mailto:">contact@gmail.com</a>
+                </div>
+                <div class="telContainer">
+                    <img class="telPicto" src="../img/PictoTel.png" alt="">
+                    <p class="numeroTel">+(33)6 00 00 00 00</p>
+                </div>
+                <div class="reseauxContainer">
+                    <button onclick="window.location.href='';"
+                        class="lienHeader firstLienHeader buttonContactFooter buttonContact">
+                        contact
+                    </button>
+                </div>
             </div>
-            <div class="droitsContainer">
-                <p>XEMBEE © Tous Droits Réservés - 2022</p>
+            <div class="partieDroiteFooter">
+                <div class="liensFooter">
+                    <h3>Explorer</h3>
+                    <a class="lienFooter" href="">projet</a>
+                    <a class="lienFooter" href="">qui sommes nous</a>
+                    <a class="lienFooter" href="">contact</a>
+                    <a class="lienFooter lienMentions" href="../html/mentions.html">mentions légales</a>
+                </div>
             </div>
+        </div>
+        <div class="droitsContainer">
+            <p>XEMBEE © Tous Droits Réservés - 2022</p>
         </div>
     </footer>
     <script src="../js/header.js"></script>
