@@ -21,8 +21,8 @@ html {
 {
     z-index: 1;
     position: absolute;
-    width: 474px;
-    height: 474px;
+    width: 24.5vw;
+    height: 24.5vw;
     right: 200px;
     top: 800px;    
     /* Marron */
@@ -36,8 +36,8 @@ html {
     right: 0;
     top: 0;
     border-radius: 100%;
-    width: 1053px;
-    height: 1053px;
+    width: 55vw;
+    height: 55vw;
     /* Jaune */
     background: #FCB041;
 }
@@ -217,4 +217,11 @@ p
     background-color: gray;
     width: 90%;
     height: 433px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container
+    {
+        margin: 150px 0 100px 0;
+    }
 }
