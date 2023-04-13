@@ -276,6 +276,22 @@ a:hover {
 /* responsive */
 
 @media only screen and (max-width: 800px) {
+    .partieHauteFooter
+    {
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .partieGaucheFooter
+    {
+        justify-content: center;
+        align-items: center;
+    }
+    .liensFooter
+    {
+        align-items: center;
+    }
     .lienHeader 
     {
         display: none;

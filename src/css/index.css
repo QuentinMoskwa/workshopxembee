@@ -220,9 +220,13 @@ p
 }
 
 @media only screen and (max-width: 800px) {
+    .premierBloc p
+    {
+        width: 70%;
+    }
     .container
     {
-        margin: 150px 0 100px 0;
+        margin: 150px 2% 100px 2%;
     }
     .rond2 {
         z-index: 1;
