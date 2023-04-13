@@ -16,30 +16,28 @@ html {
     right: 100px;
     top: 0px;
 }
-
-.rond2
-{
-    z-index: 1;
-    position: absolute;
-    right: -500px;
-    top: -500px;
-    border-radius: 100%;
-    width: 1053px;
-    height: 1053px;
-    /* Jaune */
-    background: #FCB041;
-}
-.rond1
+.rondsHaut
 {
     z-index: 0;
+    background-image: url("../img/RondsHaut.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     position: absolute;
-    width: 474px;
-    height: 474px;
-    right: -300px;
-    top: 260px;    
-    /* Marron */
-    border-radius: 100%;
-    background: #3F2C10;
+    width: 1200px;
+    height: 1200px;
+    right:-500px;
+    top: -500px;
+}
+
+.logoFondJaune
+{
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 320px;
+    left: 320px;
+    max-width: 280px;
 }
 
 body {
@@ -73,6 +71,7 @@ body {
 h2
 {
     font-family: 'Unbounded', cursive;
+    font-size: xx-large;
 }
 p
 {
@@ -120,26 +119,18 @@ p
 
 }
 
-.rond1SecondBloc
-{
-    position: absolute;
-    height: 299px;
-    width: 299px;
-    left: -130px;
-    top: 90px;
-    border-radius: 100%;
-    background-color: #3F2C10;
 
-}
-.rond2SecondBloc
+.rondSecondBloc
 {
     position: absolute;
-    height: 239px;
-    width: 239px;
-    left: -130px;
+    background-image: url("../img/RondsMilieu.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 480px;
+    height: 480px;
+    left: -200px;
     top: 0px;
-    border-radius: 100%;
-    background-color: #FCB041;
 
 }
 
@@ -191,26 +182,17 @@ p
 
 }
 
-.rond1QuatriemeBloc {
+.rondQuatriemeBloc {
     position: absolute;
-    height: 239px;
-    width: 239px;
-    right: 0;
-    top: 190px;
-    border-radius: 100%;
-    background-color: #3F2C10;
+    background-image: url("../img/RondsBas.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 480px;
+    height: 480px;
+    right: -100px;
+    top: 100px;
     
-}
-
-.rond2QuatriemeBloc {
-    position: absolute;
-    height: 299px;
-    width: 299px;
-    right: 0px;
-    top: 0px;
-    border-radius: 100%;
-    background-color: #FCB041;
-
 }
 
 .visuQuatriemeBloc {
@@ -220,6 +202,22 @@ p
 }
 
 @media only screen and (max-width: 800px) {
+    .logoFondJaune
+    {
+        display: none;
+    }
+    .rondsHaut
+    {
+        scale:1
+    }
+    .quatriemeBlocVisuelContainer, .secondBlocVisuelContainer {
+        justify-content: center;
+    }
+
+    .visuQuatriemeBloc, .visuSecondBloc
+    {
+        width: 100%;
+    }
     .premierBloc p
     {
         width: 70%;
@@ -239,16 +237,7 @@ p
         /* Jaune */
         background: #FCB041;
     }
+}
 
-    .rond1 {
-        z-index: 0;
-        position: absolute;
-        width: 274px;
-        height: 274px;
-        right: -190px;
-        top: 120px;
-        /* Marron */
-        border-radius: 100%;
-        background: #3F2C10;
-    }
+@media only screen and (max-width: 600px) {
 }

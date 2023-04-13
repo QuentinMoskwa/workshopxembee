@@ -22,8 +22,16 @@ a:hover {
     color: red;
 }
 
+.logoHeader
+{
+    width: auto;
+    margin-left: 10px;
+    height: auto;
+    max-width: 200px;
+}
+
 .headercontainer {
-    z-index: 5;
+    z-index: 20;
     position: fixed;
     top: 0px;
     display: flex;
@@ -71,11 +79,6 @@ a:hover {
 }
 
 
-.logo
-{
-    margin-left: 2%;
-}
-
 .footerContainer {
     z-index: 10;
     overflow: hidden;
@@ -88,6 +91,14 @@ a:hover {
     width: 1440px;
     background: #FCB041;
     width: 100%;
+}
+
+.logoFooter
+{
+    width: auto;
+    margin-top:50px ;
+    height: auto;
+    max-width: 244px;
 }
 
 .footerFond {
@@ -175,7 +186,7 @@ a:hover {
 
 .lienMentions
 {
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 .buttonContact
@@ -201,6 +212,21 @@ a:hover {
 
 .droitsContainer {
     bottom: 0;
+}
+
+.petitsLiens
+{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.petitsLiens p
+{
+    margin: 0 5px 0 5px !important; 
 }
 
 /* menu burger */
