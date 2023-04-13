@@ -109,6 +109,12 @@
     right: 80px;
 }
 
+.maisAussiBlocResponsive
+{
+    margin: 0 10% 0 10%;
+    display: none;
+}
+
 .maisAussiBloc p
 {
     max-width: 411px;
@@ -124,6 +130,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.troisiemeBloc h2
+{
+    margin-bottom: 50px;
 }
 .blocsXembeeDesktop
 {
@@ -157,13 +168,13 @@
 {
     z-index: -1;
     position: absolute;
-    top: 0;
-    left: -190px;
+    scale: 1.4;
     background-image: url("../img/fondConcept.png");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 120vw;
-    height: 500px;
+    background-position: center;
+    width: 100%;
+    height: 100%;
 }
 
 .imgProduitBanniere
@@ -181,6 +192,22 @@
 
 
 @media only screen and (max-width: 800px) {
+    .fondBanniere
+    {
+        scale: 5;
+    }
+    .maisAussiBlocDesktop
+    {
+        display: none;
+    }
+    .maisAussiBlocResponsive
+    {
+        display: block;
+    }
+    .description1,
+        .description3 {
+            margin-bottom: 150px;
+        }
     .ellipseFond {
         width: 183px;
         height: 300px;
