@@ -33,6 +33,7 @@
     position: absolute;
     scale: 1;
     top: 50%;
+    width: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -55,14 +56,15 @@
     max-height: 120px;
 }
 
-.grilleXembee
-{
+.grilleXembee {
     height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     position: relative;
-    align-content: space-between;
+    align-content: center;
+    align-items: center;
 }
 
 
@@ -142,4 +144,25 @@
     height: 158px;
     border-radius: 100%;
     background-color: white;
+}
+
+@media only screen and (max-width: 800px) {
+    .ellipseFond {
+        width: 183px;
+        height: 300px;
+    }
+        .rondDescription1 {
+            top: 100px;
+            left: 40px;
+        }
+    
+        .rondDescription2 {
+            bottom: 100px;
+            left: 40px;
+        }
+    
+        .rondDescription3 {
+            top: 100px;
+            right: 40px;
+        }
 }
