@@ -1,0 +1,145 @@
+.secondBloc
+{
+    width: 100%;
+}
+
+.containerXembee
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.ligneDescription
+{
+    position: absolute;
+    width: 149.68px;
+    height: 0px;
+    left: 0px;
+    top: 0px;
+
+    /* Marron */
+
+    border: 2px solid #3F2C10;
+    /* transform: rotate(139.61deg); */
+}
+
+.imgProduit
+{
+    position: absolute;
+    scale: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ellipseFond
+{
+    z-index: -1;
+
+    width: 438px;
+    height: 548px;
+    background-color: #FCB041;
+    border-radius: 100%;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+}
+
+.descriptionProduit
+{
+    /* position: absolute; */
+    max-width: 247px;
+    max-height: 120px;
+}
+
+.grilleXembee
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    align-content: space-between;
+}
+
+
+.description1, .description2
+{
+    text-align: right;
+}
+.description1, .description3
+{
+    margin-bottom: 300px;
+}
+
+.rondDescription
+{
+    z-index: 10;
+    position: absolute;
+    border-radius: 100%;
+    width: 41px;
+    height: 41px;
+    text-align: center;
+    background-color: #3F2C10;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.rondDescription1
+{
+    top:170px;
+    left: 80px;
+}
+.rondDescription2
+{
+    bottom:130px;
+    left: 80px;
+}
+.rondDescription3
+{
+    top:140px;
+    right: 80px;
+}
+
+.maisAussiBloc p
+{
+    max-width: 411px;
+}
+
+.troisiemeBloc
+{
+    padding-top: 50px;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondBanniere
+{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: -190px;
+    background-image: url("../img/fondConcept.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 120vw;
+    height: 500px;
+}
+
+.imgProduitBanniere
+{
+    width: 158px;
+    height: 158px;
+    border-radius: 100%;
+    background-color: white;
+}
