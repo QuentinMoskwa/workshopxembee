@@ -117,12 +117,40 @@
 .troisiemeBloc
 {
     padding-top: 50px;
+    width: 100%;
     position: relative;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.blocsXembeeDesktop
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.contenuBanniere
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.gallery 
+{
+    width: 100%;
+}
+.blocsXembeeResponsive
+{
+    width: 100%;
+    display: none;
 }
 
 .fondBanniere
@@ -145,6 +173,12 @@
     border-radius: 100%;
     background-color: white;
 }
+
+.quatriemeBloc
+{
+    margin-top: 50px;
+}
+
 
 @media only screen and (max-width: 800px) {
     .ellipseFond {

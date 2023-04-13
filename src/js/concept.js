@@ -68,15 +68,12 @@ function tracerLigne() {
     }
     var div1 = document.getElementById("description1");
     var div2 = document.getElementById("rondDescription1");
-    console.log(div1, div2);
     connect(div1, div2, "#3F2C10", 5, "right");
     var div1 = document.getElementById("description2");
     var div2 = document.getElementById("rondDescription2");
-    console.log(div1, div2);
     connect(div1, div2, "#3F2C10", 5, "right");
     var div1 = document.getElementById("description3");
     var div2 = document.getElementById("rondDescription3");
-    console.log(div1, div2);
     connect(div1, div2, "#3F2C10", 5);
 }
 

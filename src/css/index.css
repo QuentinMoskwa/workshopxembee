@@ -141,8 +141,6 @@ p
 .visuSecondBloc
 {
     background-color: gray;
-    width: 90%;
-    height: 433px;
 }
 
 .troisiemeBloc
@@ -201,18 +199,30 @@ p
 
 .visuQuatriemeBloc {
     background-color: gray;
-    width: 90%;
-    height: 433px;
+}
+
+.Visus{
+    border-radius: 60px;
+    width: 80%;
 }
 
 @media only screen and (max-width: 800px) {
+    .Visus {
+        border-radius: 20px;
+        width: 100%;
+    }
     .logoFondJaune
     {
         display: none;
     }
     .rondsHaut
     {
-        scale:1
+        scale:0.4;
+        right: -700px;
+    }
+    .decoSecondBloc, .decoQuatriemeBloc
+    {
+        display: none;
     }
     .quatriemeBlocVisuelContainer, .secondBlocVisuelContainer {
         justify-content: center;
@@ -241,7 +251,4 @@ p
         /* Jaune */
         background: #FCB041;
     }
-}
-
-@media only screen and (max-width: 600px) {
 }
