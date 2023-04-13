@@ -15,8 +15,7 @@
     <header class="headercontainer">
         <div class="fondHeader" id="headerFond"></div>
         <div class="logo">
-            <a class="lienHeader lienAcceuil autreLienHeader" href="index.html"><img src="" alt="Logo de Xembee"></a>
-            
+            <a class="lienAcceuil autreLienHeader" href="index.html"><img src="" alt="Logo de Xembee"></a>
         </div>
         <div class="menu">
             <a class="lienHeader autreLienHeader" href="">Qui sommes nous ?</a>
@@ -25,6 +24,25 @@
             <button onclick="window.location.href='';" class="lienHeader firstLienHeader buttonContactHeader buttonContact">
                 Contact
             </button>
+        </div>
+        <div class="menuBurger">
+            <div id="mySidenav" class="sidenav">
+                <a id="closeBtn" href="#" class="close">×</a>
+                <ul>
+                    <li><a href="#">A propos</a></li>
+                    <li><a href="#">Nos services</a></li>
+                    <li><a href="#">Témoignages</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            
+            <a href="#" id="openBtn">
+                <span class="burger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </a>
         </div>
     </header>
     <div class="decorations1">
@@ -103,7 +121,6 @@
         </div>
     </footer>
     <script src="src/js/index.js"></script>
-    <script src="src/js/carroussel.js"></script>
     <script src="src/js/header.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>

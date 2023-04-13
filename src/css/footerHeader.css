@@ -203,6 +203,98 @@ a:hover {
     bottom: 0;
 }
 
+/* menu burger */
+
+.menuBurger
+{
+    position: absolute;
+    right: 20px;
+    z-index: 2;
+}
+
+/* Sidenav menu */
+.sidenav {
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0px;
+    background-color: #e8e8e8;
+    padding-top: 60px;
+    transition: left 0.5s ease;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Sidenav menu links */
+.sidenav a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Active class */
+.sidenav.active {
+    display: flex;
+    left: 0;
+}
+
+/* Close btn */
+.sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+/* Icône burger */
+.burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+
+
+/* responsive */
+
+@media only screen and (max-width: 800px) {
+    .lienHeader 
+    {
+        display: none;
+    }
+    .menuBurger
+    {
+        display: block;
+    }
+}
+@media only screen and (min-width: 800px) {
+    .lienHeader 
+    {
+        display: block;
+    }
+    .menuBurger
+    {
+        display: none;
+    }
+}
 
 
 /* css pour animations */
