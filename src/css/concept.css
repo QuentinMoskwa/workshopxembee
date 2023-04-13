@@ -111,7 +111,7 @@
 
 .maisAussiBlocResponsive
 {
-    margin: 0 10% 0 10%;
+    margin: 200px 10% 0 10%;
     display: none;
 }
 
@@ -185,13 +185,33 @@
     background-color: white;
 }
 
+.troisiemeBloc h3
+{
+    max-width: 200px;
+}
+
 .quatriemeBloc
 {
     margin-top: 50px;
 }
 
 
+.decoQuatriemeBloc {
+    position: absolute;
+    top: 2500px;
+    right: -140px;
+
+}
+
 @media only screen and (max-width: 800px) {
+    .rondDescription {
+        width: 20px;
+        height: 20px;
+    }
+    .secondBloc p
+    {
+        font-size: small;
+    }
     .fondBanniere
     {
         scale: 5;
@@ -209,16 +229,16 @@
             margin-bottom: 150px;
         }
     .ellipseFond {
-        width: 183px;
-        height: 300px;
+        width: 140px;
+        height: 180px;
     }
         .rondDescription1 {
-            top: 100px;
+            top: 60px;
             left: 40px;
         }
     
         .rondDescription2 {
-            bottom: 100px;
+            bottom: 60px;
             left: 40px;
         }
     
