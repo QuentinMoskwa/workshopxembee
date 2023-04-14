@@ -182,6 +182,10 @@
 }
 
 @media only screen and (max-width: 800px) {
+    .troisiemeBloc h2
+    {
+        margin: 0;
+    }
     .flickity-viewport
     {
         height: 250px !important;
