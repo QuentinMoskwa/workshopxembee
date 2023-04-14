@@ -10,6 +10,26 @@ html {
     height: 100%;
 }
 
+h1
+{
+    font-family: 'Unbounded', cursive;
+    font-size: xx-large;
+}
+h2
+{
+    font-family: 'Unbounded', cursive;
+    font-size: xxx-large;
+}
+h3
+{
+    font-family: 'Unbounded', cursive;
+}
+p
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: large;
+}
+
 .decorations1
 {
     position: absolute;
@@ -68,20 +88,6 @@ body {
     margin-bottom: 350px;
 }
 
-h2
-{
-    font-family: 'Unbounded', cursive;
-    font-size: xxx-large;
-}
-h3
-{
-    font-family: 'Unbounded', cursive;
-}
-p
-{
-    font-family: 'Raleway', sans-serif;
-    font-size: large;
-}
 .premierBloc p
 {
     width: 50%;
