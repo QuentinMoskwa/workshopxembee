@@ -207,6 +207,11 @@ p
     width: 80%;
 }
 
+.flickity-button
+{
+    background-color: transparent !important;
+}
+
 @media only screen and (max-width: 800px) {
     h2
     {
