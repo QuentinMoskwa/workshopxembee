@@ -4,13 +4,21 @@
     justify-content: center;
     align-items: center;
 }
+h1 {
+    font-size: xxx-large;
+}
 h2
 {
-    
+    font-size: xx-large;
 }
 h3
 {
+    font-size: x-large;
     margin-top: 50px;
+}
+p
+{
+    font-size: larger;
 }
 .dernierBloc
 {
