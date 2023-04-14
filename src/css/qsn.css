@@ -13,8 +13,8 @@
 
 .imgTrombi
 {
-    max-width: 367px;
-    max-height: 367px;
+    max-width: 320px;
+    max-height: 320px;
     border-radius: 8%;
 }
 
@@ -27,7 +27,7 @@
 }
 .blocTrombi
 {
-    max-width: 320px;
+    max-width: 367px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
