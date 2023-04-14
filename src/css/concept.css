@@ -182,6 +182,14 @@
 }
 
 @media only screen and (max-width: 800px) {
+    .flickity-viewport
+    {
+        height: 250px !important;
+    }
+    .gallery-cell
+    {
+        height: 280px;
+    }
     .blocsXembeeResponsive {
         display: block;
     }
@@ -207,7 +215,7 @@
     }
     .fondBanniere
     {
-        scale: 5;
+        scale: 6;
     }
     .maisAussiBlocDesktop
     {
