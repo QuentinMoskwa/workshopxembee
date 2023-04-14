@@ -66,9 +66,9 @@
             <h2>Le concept</h2>
             <p>Xembee, c'est l'énergie éolienne nouvelle génération. Des microcentrales électriques durables et modulables, pour une
             production d'énergie intelligente et respectueuse de l'environnement</p>
-            <button> Découvrez le concept</button>
+            <button onclick="window.location.href='#concept'"> Découvrez le concept</button>
         </div>
-        <div class="secondBloc Blocs">
+        <div id="concept" class="secondBloc Blocs">
             <h2>Comment ça marche ?</h2>
             <div class="containerXembee">
                 <img class="imgProduitDesktop" src="src/img/imgProduitDesktop.png" alt="">
@@ -82,6 +82,12 @@
             <div class="maisAussiBlocResponsive">
                 <h3>Mais aussi...</h3>
                 <p>Des systèmes de contrôle à distance et de monitoring qui permettent de surveiller en temps réel la performance des panneaux éoliens et de diagnostiquer rapidement les éventuelles pannes.</p>
+            </div>
+            <div class="btnFAQConcept">
+                <button onclick="window.location.href='FAQ.html';"
+                    class="">
+                    FAQ
+                </button>
             </div>
         </div>
         <div class="troisiemeBloc Blocs">
@@ -174,8 +180,7 @@
         <div class="footerFond"></div>
         <div class="partieHauteFooter">
             <div class="partieGaucheFooter">
-                <a class="lienLogoFooter" href="index.html"><img class="logoFooter" src="src/img/LogoNoir.png"
-                        alt=""></a>
+                <a class="lienLogoFooter" href="index.html"><img class="logoFooter" src="src/img/LogoNoir.png" alt=""></a>
                 <div class="mailContainer">
                     <img class="mailPicto" src="src/img/PictoMail.png" alt="">
                     <a class="mailLien" href="mailto:">contact@gmail.com</a>
@@ -185,6 +190,10 @@
                     <p class="numeroTel">+(33)6 00 00 00 00</p>
                 </div>
                 <div class="reseauxContainer">
+                    <button onclick="window.location.href='https://www.linkedin.com/company/xembee/';"
+                        class="btnFooter"><img class="imgBtnFooter" src="src/img/logoLinkedIn.png" alt=""></button>
+                    <button onclick="window.location.href='https://www.facebook.com/profile.php?id=100064667964190';"
+                        class="btnFooter"><img class="imgBtnFooter" src="src/img/logoFacebook.png" alt=""></button>
                     <button onclick="window.location.href='';"
                         class="lienHeader firstLienHeader buttonContactFooter buttonContact">
                         contact
@@ -207,7 +216,7 @@
             <div class="petitsLiens">
                 <a class="lienMentions" href="mentions.html">mentions légales </a>
                 <p> - </p>
-                <a class="lienMentions" href=""> plan du site</a>
+                <a class="lienMentions" href="sitemap.html"> plan du site</a>
             </div>
             <p>XEMBEE © Tous Droits Réservés - 2022</p>
         </div>

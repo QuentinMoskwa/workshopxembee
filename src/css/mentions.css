@@ -15,11 +15,6 @@ body {
     position: relative;
 }
 
-.lienMentions
-{
-    color: red;
-}
-
 .container {
     z-index: 1;
     margin: 100px 20% 250px 20%;

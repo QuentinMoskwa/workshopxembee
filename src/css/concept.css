@@ -1,6 +1,12 @@
 .secondBloc
 {
     width: 100%;
+    margin-top: 50px;
+}
+
+.secondBloc h2
+{
+    margin-top: 100px;
 }
 
 .containerXembee
@@ -12,20 +18,6 @@
     align-content: space-between;
     width: 100%;
     height: 100%;
-}
-
-.ligneDescription
-{
-    position: absolute;
-    width: 149.68px;
-    height: 0px;
-    left: 0px;
-    top: 0px;
-
-    /* Marron */
-
-    border: 2px solid #3F2C10;
-    /* transform: rotate(139.61deg); */
 }
 
 .imgProduitDesktop
@@ -41,23 +33,7 @@
     display: none;
 }
 
-.ellipseFond
-{
-    z-index: -1;
 
-    width: 438px;
-    height: 548px;
-    background-color: #FCB041;
-    border-radius: 100%;
-    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
-}
-
-.descriptionProduit
-{
-    /* position: absolute; */
-    max-width: 247px;
-    max-height: 120px;
-}
 
 .grilleXembee {
     height: 100%;
@@ -80,7 +56,7 @@
 
 .maisAussiBlocResponsive
 {
-    margin: 200px 10% 0 10%;
+    margin: 50px 10% 0 10%;
     display: none;
 }
 
@@ -88,6 +64,29 @@
 {
     max-width: 411px;
 }
+
+.btnFAQConcept
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.btnFAQConcept button {
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    min-width: 210px;
+    height: 45px;
+    border: none;
+    background-color: #FCB041;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+}
+
+
+
 
 .troisiemeBloc
 {
