@@ -1,0 +1,22 @@
+.container
+{
+    margin-bottom: 0;
+}
+
+.premierBloc
+{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.premierBloc2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bouttonLivret
+{
+    font-size: x-large !important;
+    height: 80px !important;
+    width: 350px !important;
+}
