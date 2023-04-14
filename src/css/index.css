@@ -88,6 +88,11 @@ body {
     margin-bottom: 350px;
 }
 
+
+.premierBloc h2
+{
+    max-width: 70%;
+}
 .premierBloc p
 {
     width: 50%;
