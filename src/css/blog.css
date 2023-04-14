@@ -4,7 +4,14 @@
     justify-content: center;
     align-items: center;
 }
-
+h2
+{
+    
+}
+h3
+{
+    margin-top: 50px;
+}
 .dernierBloc
 {
     margin-top: 180px;
@@ -24,6 +31,7 @@
         width: 100% !important;
         float: none !important;
     }
+
     h3
     {
         margin-top: 50px !important;
