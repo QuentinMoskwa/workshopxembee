@@ -1,0 +1,32 @@
+.imgToCenter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dernierBloc
+{
+    margin-top: 180px;
+}
+
+.imgEolienne
+{
+    margin-right: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+    .premierBloc
+    {
+        margin-bottom:50px !important;
+    }
+    img {
+        width: 100% !important;
+        float: none !important;
+    }
+    h3
+    {
+        margin-top: 50px !important;
+    }
+
+}
